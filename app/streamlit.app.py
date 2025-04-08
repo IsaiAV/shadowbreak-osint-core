@@ -14,4 +14,5 @@ if st.button("Analyze"):
     else:
         st.success("Low entropy — low immediate concern.")
 
-streamlit run app/streamlit_app.py
+# To run this
+# ---> streamlit run app/streamlit_app.py <----
