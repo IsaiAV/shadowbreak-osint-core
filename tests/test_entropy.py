@@ -9,8 +9,8 @@ class TestEntropyFunctions(unittest.TestCase):
         self.assertEqual(compute_entropy("repeat repeat repeat"), 0.0)
 
     def test_narrative_drift(self):
-        t1 = "He said I was okay."
-        t2 = "They threatened me every day."
+        t1 = "Everything is fine and calm."
+        t2 = "I can't sleep. I'm scared. They're watching me."
         drift = narrative_drift(t1, t2)
         self.assertGreater(drift, 0)
 

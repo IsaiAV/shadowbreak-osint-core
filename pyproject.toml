@@ -1,0 +1,34 @@
+[project]
+name = "shadowbreak"
+version = "0.1.0"
+description = "Shadowbreak OSINT Intelligence Core"
+authors = [{ name="Isai Valdez", email="your@email.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "spacy",
+    "streamlit",
+    "numpy",
+    "scikit-learn",
+    "pandas",
+    "nltk"
+]
+
+# 📍 Add these:
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/shadowbreak-osint-core"
+Source = "https://github.com/YOUR_USERNAME/shadowbreak-osint-core"
+Issues = "https://github.com/YOUR_USERNAME/shadowbreak-osint-core/issues"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["shadowbreak"]

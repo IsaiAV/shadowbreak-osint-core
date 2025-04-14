@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: shadowbreak
+Version: 0.1.0
+Summary: Shadowbreak OSINT Intelligence Core
+Author-email: Isai Valdez <your@email.com>
+Project-URL: Homepage, https://github.com/YOUR_USERNAME/shadowbreak-osint-core
+Project-URL: Source, https://github.com/YOUR_USERNAME/shadowbreak-osint-core
+Project-URL: Issues, https://github.com/YOUR_USERNAME/shadowbreak-osint-core/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: spacy
+Requires-Dist: streamlit
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: nltk
+Dynamic: license-file
+
 # 🧠 Shadowbreak OSINT Core
 
 This is the official core repository for the **Shadowbreak Project’s symbolic OSINT engine**.  
