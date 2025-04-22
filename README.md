@@ -67,7 +67,7 @@ shadowbreak-osint-core/
 ### 1. Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/shadowbreak-osint-core.git
+git clone https://github.com/IsaiAV/shadowbreak-osint-core.git
 cd shadowbreak-osint-core
 pip install -r requirements.txt
 
